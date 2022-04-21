@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    margin: 0px;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: fantasy;
+    width: 100%;
+    padding: 10px;
+}
+
+.back_btn {
+    float: right;
+    font-size: 20 !important;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+.back_btn:hover {
+    font-size: 22px;
+    color: red !important;
+}
+
+#status {
+    font-size: 20px;
+}
+
+#text {
+    font-size: 20px;
+}
+
+canvas {
+    height: 40%;
+    width: auto;
+    margin-top: 8%;
+    border: 2px grey solid;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+}
